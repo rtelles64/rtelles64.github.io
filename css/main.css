@@ -8,6 +8,9 @@ h3, h4 {
   font-size: 18px;
   color: #111;
 }
+h3.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
   padding: 80px 120px;
 }
@@ -31,9 +34,40 @@ h3, h4 {
 .carousel-caption h3 {
   color: #fff !important;
 }
+
+.show-mobile {
+    display: none;
+}
+
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+
+  .show-mobile {
+      display: block;
+  }
+
+  .hide-mobile {
+      display: none;
+  }
+
+  .grid-container {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+  }
+
+  .grid-item {
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+  }
+
+  .container-mobile {
+        margin-top: 80px;
+        padding: 1px 120px;
   }
 }
 .bg-1 {
