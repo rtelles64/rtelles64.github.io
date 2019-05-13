@@ -72,8 +72,12 @@ h3.sansserif {
       display: none;
   }
 
-  div#contact.container div.row div.col-md-5 {
+  #contact.container div.row div.col-md-5 {
       margin-left: -30px;
+  }
+
+  #education.container {
+      padding: 80px 80px;
   }
 }
 
