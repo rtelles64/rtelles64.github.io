@@ -2,6 +2,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #777;
 }
+h2 {
+    color: #111;
+    margin: 10px 0 30px 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
 h3, h4 {
   margin: 10px 0 30px 0;
   letter-spacing: 2px;
@@ -24,6 +30,9 @@ h3, h4 {
 #courses li {
     list-style: none;
     margin-bottom: 5px;
+}
+#projects {
+    color: white;
 }
 .person {
   border: 10px solid transparent;
@@ -68,6 +77,9 @@ h3, h4 {
 }
 
 @media only screen and (max-width: 700px) {
+  body {
+      font-size: 16px;
+  }
   .carousel-caption {
     /* Hide the carousel text when the screen is less than 600 pixels wide */
     display: none;
