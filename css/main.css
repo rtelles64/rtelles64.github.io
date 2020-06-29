@@ -76,7 +76,7 @@ h3, h4 {
       font-size: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
   body {
       font-size: 16px;
   }
@@ -89,6 +89,10 @@ h3, h4 {
       font-size: 18px;
   }
 
+  .grid-item {
+      margin-left: 20px;
+  }
+
   .show-mobile {
       display: block;
   }
@@ -97,8 +101,14 @@ h3, h4 {
       display: none;
   }
 
-  #contact.container div.row div.col-md-5 {
-      margin-left: -30px;
+  #contact-list {
+      list-style: none;
+      padding-left: 0;
+  }
+
+  #contact-container {
+      margin-left: -45px;
+      margin-right: -45px;
   }
 
   #courses {
@@ -116,6 +126,34 @@ h3, h4 {
   #projects.bg-1 div.container {
       padding: 80px 40px;
   }
+}
+
+@media only screen and (orientation: landscape) {
+    .show-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    #contact-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #contact-container {
+        margin-left: 170px;
+        margin-right: -45px;
+    }
+
+    .grid-container {
+        justify-content: center;
+    }
+
+    .grid-item {
+        margin-left: 15px;
+    }
 }
 
 .bg-1 {
