@@ -67,10 +67,14 @@ h3, h4 {
       font-size: 25px;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .carousel-caption {
     /* Hide the carousel text when the screen is less than 600 pixels wide */
     display: none;
+  }
+
+  .card-title {
+      font-size: 18px;
   }
 
   .show-mobile {
