@@ -16,8 +16,10 @@ h3, h4 {
 }
 #courses {
     columns: 2;
+    column-gap: 5px;
     -webkit-columns: 2;
     -moz-columns: 2;
+    padding-left: 0px;
 }
 #courses li {
     list-style: none;
