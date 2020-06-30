@@ -22,6 +22,10 @@ h3, h4 {
     padding-top: 70px;
 }
 
+#contact-list {
+    font-size: 18px;
+}
+
 #contact-container.row {
     margin-left: 340px;
 }
