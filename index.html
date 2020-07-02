@@ -1,298 +1,501 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Roy Telles Jr.</title>
-  <meta charset="utf-8">
-  <!-- Set up iphone preview -->
-  <meta property="og:title" content="Roy Telles, Jr." />
-  <meta property="og:image" content="images/RoyTelles.jpg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
+    <title>Roy Telles Jr.</title>
+    <meta charset="utf-8">
+    <!-- Set up iphone preview -->
+    <meta property="og:title" content="Roy Telles, Jr." />
+    <meta property="og:image" content="images/RoyTelles.jpg" />
+    <!-- end iphone preview setup -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#myPage">ROY TELLES JR</a>
+<nav class="navbar">
+    <div class="navbar-brand" href="#myPage">
+        <figure>
+            <img id="profile-pic" src="images/RoyTelles.jpg" alt="Roy Telles Jr."/>
+            <figcaption id="profile-name">ROY TELLES JR.</figcaption>
+        </figure>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">ABOUT</a></li>
-        <li><a href=#skills>SKILLS</a></li>
-        <li><a href="#education">EDUCATION</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
+    <ul>
+      <li><a href="#myPage">ABOUT ME</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#extras">EXTRAS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
 </nav>
 
-<div class="container-fluid bg-1 text-center">
-  <img id="main-pic" src="images/RoyTelles.jpg" class="img-responsive img-circle margin" style="display:inline" alt="RoyTelles" width="350" height="350">
-  <h3>
-      I am always influenced by technology.
-      The boundaries that are pushed by the leaders of the industry today
-      reflect my own ambition to become a member of the ever-growing tech
-      industry.
-      I hope to become a full stack web developer for your company and will
-      use my ambition to achieve the goals and accomplish the objectives that
-      I am tasked with.
-  </h3>
-</div>
-
-<!-- Container (SKILLS Section) -->
-<div id="skills" class="container text-center">
-  <h2>SKILLS</h2>
-  <div class="row">
-      <div class="grid-container" style="margin-top: 20px;">
-        <div class="grid-item skill"><i class="fab fa-python fa-3x"></i></div>
-        <div class="grid-item skill"><i class="fab fa-html5 fa-3x"></i></div>
-        <div class="grid-item skill"><i class="fab fa-css3-alt fa-3x"></i></div>
-        <div class="grid-item skill"><i class="fab fa-js-square fa-3x"></i></div>
-        <div class="grid-item skill"><i class="fab fa-java fa-3x"></i></div>
-        <div class="grid-item skill"><i class="fas fa-gem fa-3x"></i></div>
-      </div>
-  </div>
-</div>
-
-<!-- Container (EDUCATION Section) -->
-<div id="education" class="container">
-  <h2>EDUCATION</h2>
-  <p style="text-align: center">San Francisco State University (2019)</p>
-  <p style="text-align: center">B.S. Computer Science (Math Minor)</p>
-  <div class="text-center">
-      <div class="card">
-        <div class="card-header">
-          <h3><a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
-              Coursework
-          </a></h3>
-        </div>
-        <div id="collapseFour" class="collapse">
-          <div id="course-card" class="card-body">
-              <ul id="courses">
-                  <li>Data Structures in Java</li>
-                  <li>Machine Structures</li>
-                  <li>Computing Theory</li>
-                  <li>Analysis of Algorithms</li>
-                  <li>Software Development</li>
-                  <li>Operating Systems Principles</li>
-                  <li>Software Engineering</li>
-                  <li>Human Computer Interaction</li>
-                  <li>Programming Languages</li>
-              </ul>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-
-<!-- Container (PROJECTS Section) -->
-<div id="projects" class="bg-1">
-  <div class="container">
-    <h2 id="projects">PROJECTS</h2>
-    <div class="card">
-        <div class="card-body">
-            <div id="accordion3">
-                <div class="card">
-                  <div class="card-header text-center">
-                    <h3><a class="card-link" data-toggle="collapse" href="#collapseFive">
-                      Academic
-                    </a></h3>
-                  </div>
-                  <div id="collapseFive" class="collapse" data-parent="#accordion3">
-                      <div class="card-body">
-                          <div class="card">
-                            <img class="card-img-top mx-auto d-block" src="images/ShallotPurple.png" alt="Shallotco logo" style="width: 50%">
-                            <div class="card-body">
-                              <h4 class="card-title">Shallot</h4>
-
-                                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                    <!-- Indicators -->
-                                    <ol class="carousel-indicators">
-                                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                                      <li data-target="#myCarousel" data-slide-to="3"></li>
-                                    </ol>
-
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner">
-                                      <div class="item active">
-                                        <img src="images/ShallotHome.jpg" alt="Shallot Homepage">
-                                      </div>
-
-                                      <div class="item">
-                                        <img src="images/ShallotModal.jpg" alt="Shallot Modal">
-                                      </div>
-
-                                      <div class="item">
-                                        <img src="images/ShallotSignup.jpg" alt="Shallot Signup">
-                                      </div>
-
-                                      <div class="item">
-                                        <img src="images/ShallotLogin.jpg" alt="Shallot Login">
-                                      </div>
-                                    </div>
-
-                                    <!-- Left and right controls -->
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                      <span class="glyphicon glyphicon-chevron-left"></span>
-                                      <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                      <span class="glyphicon glyphicon-chevron-right"></span>
-                                      <span class="sr-only">Next</span>
-                                    </a>
-                                  </div>
-
-                              <p class="card-text">
-                                  Mock stock photo website.
-                                  <br>
-                                  Worked on a team of 6 students to develop a full web application
-                                  using modern teamwork, SE processes and tools.
-                                  <br>
-                                  My role was Frontend lead.
-                              </p>
-                              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#duties">More info...</button>
-                                <div id="duties" class="collapse">
-                                  As Frontend Lead I oversaw the development of the front end of our web application as well as:
-                                  <ul>
-                                    <li>Assisted backend with file tree to ensure smooth Flask build</li>
-                                    <li>Developed layout for project UI</li>
-                                    <li>Mock up design for instructor feedback</li>
-                                    <li>Developed forms and navigation bar links using best UI practices</li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header text-center">
-                    <h3><a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
-                    Personal
-                    </a></h3>
-                  </div>
-                  <div id="collapseSix" class="collapse" data-parent="#accordion3">
-                      <!-- First Card -->
-                      <div class="card">
-                          <div class="card-body">
-                            <h4 class="card-title">Udemy (03/2017 - Present)</h4>
-                            <p class="card-text">Utilized Python to:</p>
-                                <ul>
-                                    <li>
-                                        Import JSON data to implement an interactive dictionary
-                                    </li>
-                                    <li>
-                                        Implement a GUI (using Tkinter) to simulate a bookstore database
-                                    </li>
-                                    <li>
-                                        Use web scraping frameworks to design a web app that alerts
-                                        users of price notifications on shopping websites
-                                    </li>
-                                </ul>
-                            <p class="card-text">Utilized Ruby to:</p>
-                                <ul>
-                                    <li>
-                                        Create a blog web app that allowed users to create, view, and delete posts
-                                    </li>
-                                </ul>
-                          </div>
-                      </div>
-                      <!-- Second Card -->
-                      <div class="card">
-                          <div class="card-body">
-                              <h4 class="card-title">Treehouse (12/2017 - Present)</h4>
-                              <p class="card-text">Python</p>
-                                <ul>
-                                    <li>
-                                        Learned the basics of Python collections
-                                    </li>
-                                    <li>
-                                        Using SQLite Database, developed a command line interface
-                                        app that allowed user to post messages and view them.
-                                    </li>
-                                    <li>
-                                        Developed a mock social networking app using Flask that
-                                        allowed for users to create posts, as well as delete posts,
-                                        and check followers
-                                    </li>
-                                </ul>
-                              <p class="card-text">Ruby</p>
-                                <ul>
-                                    <li>
-                                        Learned the basics of Ruby
-                                    </li>
-                                </ul>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
-
-<!-- Container (CONTACT Section) -->
-<div id="contact" class="container">
-  <h2 style="margin-bottom: 50px;">CONTACT</h2>
-  <div id="contact-container" class="row" style="margin-bottom: -40px;">
-        <ul id="contact-list">
-            <li><span class="glyphicon glyphicon-map-marker"></span> San Francisco, CA</li>
-            <li><span class="glyphicon glyphicon-phone"></span> Phone: (415) 271-7476</li>
-            <li><span class="glyphicon glyphicon-envelope"></span> Email: rtelles64@gmail.com</li>
+<div class="major-container">
+    <!-- ABOUT ME section -->
+    <section id="aboutme">
+        <h1 id="hello-world">Hi there! I'm Roy</h1>
+        <h3 id="myinfo">
+          I am always influenced by technology.
+          The boundaries that are pushed by the leaders of the industry today
+          reflect my own ambition to become a member of the ever-growing tech
+          industry.
+          I hope to become a full stack web developer for your company and will
+          use my ambition to achieve the goals and accomplish the objectives that
+          I am tasked with.
+        </h3>
+    </section>
+    <!-- SKILLS section -->
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <section id="python">
+            <i class="fab fa-python fa-3x"></i>
+            <p>
+                I love coding in Python. I spend most of my free time looking for
+            projects to code in Python and using many resources to learn new
+            tools and frameworks using standard and third-party libraries. My
+            favorite framework to code websites in is
+            <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask</a>
+            using <a href="https://jinja.palletsprojects.com/en/2.11.x/" target="_blank">Jinja</a>
+            templating. My primary focus is coding the backend of web applications
+            as well as designing RESTful API's. Eventually I hope to transition
+            into data analysis and data management, which is why I've taken a
+            few courses and read a few articles on these subjects.
+            </p>
+        </section>
+        <section id="html-css-javascript">
+            <i class="fab fa-html5 fa-3x"></i>
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <i class="fab fa-js-square fa-3x"></i>
+            <p>
+                You can't have a website's frontend function without the
+                structure of HTML, the stylings of CSS, and the mechanics of
+                JavaScript. In going through coursework to design websites, I
+                enjoyed encountering CSS styling to make my websites look
+                eye-catching and also was glad to reference best practices for
+                providing a more user-friendly experience. I also like to have
+                fun manipulating the DOM with JavaScript. Overall, using
+                syntactic HTML is my favorite because it provides an inclusive
+                experience for everyone visiting my sites.
+            </p>
+        </section>
+        <section id="java">
+            <i class="fab fa-java fa-3x"></i>
+            <p>
+                Most of my undergrad curriculum involved projects coded in Java.
+                These projects covered the basics of syntax and object-oriented
+                programming. After a few intro courses, I was thrown into deep
+                waters and created a video game using Java. As rigorous as the
+                coursework was, I gained experience in debugging and knowing that
+                not everybody knows a programming language by heart and the
+                internet can be a programmer's best friend.
+            </p>
+        </section>
+        <section id="ruby">
+            <i class="fas fa-gem fa-3x"></i>
+            <p>
+                Outside of academics, in the process of learning more programming
+                languages and frameworks, I came across Ruby as a web development
+                language. I learned the basics of this language through
+                <a href="https://teamtreehouse.com/home" target="_blank">Team Tree house</a> and
+                was able to play around with the language a bit. I actually got
+                the inspiration to learn about Ruby through
+                <a href="https://play.hbomax.com/series/urn:hbo:series:GVU2WugfAylFvjSoJATvA" target="_blank">HBO's Silicon Valley</a>
+                when a reference to Ruby on Rails was made.
+            </p>
+        </section>
+        <section id="c-plus-plus">
+            <i class="devicon-cplusplus-line"></i>
+            <p>
+                My first break into the Computer Science major was taking a course
+                in C++. I can't say I'm not grateful for this language: it gave
+                me the understanding of programming language syntax as well as a
+                low-level idea of how we are communicating with the hardware of
+                a computer through this language.
+            </p>
+        </section>
+    </section>
+    <!-- EDUCATION section -->
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <h3 id="udacity">Udacity</h3>
+        <ul>
+            <li>Data Engineer Nanodegree (Udacity - 2020)</li>
+            <button id="more-info" class="collapsible">More Info...</button>
+            <section class="collapse-content">
+                <ul>
+                    <li>Data Modeling</li>
+                        <ul id="data-model-list">
+                            <li>
+                                Learned to create relational and NoSQL data
+                                models to fit the diverse needs of data
+                                consumers
+                            </li>
+                            <li>
+                                Used ETL to build databases in PostgreSQL
+                                and Apache Cassandra
+                            </li>
+                        </ul>
+                    <li>Cloud Data Warehouses</li>
+                        <ul id="cloud-list">
+                            <li>
+                                Learned about the cloud infrastructure
+                                ecosystem and how to use essential tools for
+                                computing, storage, and analytics through
+                                Amazon Web Services (AWS)
+                            </li>
+                            <li>
+                                Learned to implement a data warehouse on AWS
+                                including scalable storage, ETL strategies,
+                                and design and query optimization
+                            </li>
+                        </ul>
+                    <li>Data Lakes with Spark</li>
+                        <ul id="lakes-list">
+                            <li>
+                                Understand the need for a data lake and how it
+                                is different from a data warehouse
+                            </li>
+                            <li>
+                                Learn the various options for implementing a
+                                lake on AWS
+                            </li>
+                        </ul>
+                    <li>Data Pipelines with Airflow</li>
+                        <ul id="pipeline-list">
+                            <li>
+                                Learned how to build maintainable and reusable
+                                pipelines in Airflow
+                            </li>
+                        </ul>
+                </ul>
+            </section>
+            <li>Fullstack Web Developer Nanodegree (Udacity - 2019)</li>
+            <button id="more-info" class="collapsible">More Info...</button>
+            <section class="collapse-content">
+                <ul>
+                    <li>Developer Tools</li>
+                        <ul id="dev-tools-list">
+                            <li>
+                                Brush up knowledge of essential developer tools
+                                such as the Unix shell, Git, and Github
+                            </li>
+                            <li>
+                                Apply skills to investigate HTTP, DNS, NAT, IPv6,
+                                Bandwith, Latency, and how to use tcpdump to
+                                explore packages in the network
+                            </li>
+                        </ul>
+                    <li>Databases with SQL and Python</li>
+                        <ul id="db-sql-list">
+                            <li>
+                                Learned SQL databases and built multi-user web
+                                applications using the Flask framework,
+                                SQLAlchemy, and authentication providers such as
+                                Google and Facebook
+                            </li>
+                        </ul>
+                    <li>Servers, Authorization, and CRUD</li>
+                        <ul id="crud-list">
+                            <li>
+                                Learned the CRUD pattern (Create, Read, Update,
+                                Delete) and how it relates to RESTful
+                                architectures and to the operations of a
+                                database-backed web service
+                            </li>
+                            <li>
+                                Learned the difference between authentication
+                                and authorization
+                            </li>
+                            <li>
+                                Learned best practices in developing a login
+                                system
+                            </li>
+                        </ul>
+                </ul>
+            </section>
         </ul>
-    <div class="col-md-5 hide-mobile" style="margin-left: 15px; margin-bottom: 15px;">
-      <a href="https://www.linkedin.com/in/roy-telles/"><img src="images/linkedin.png" alt="LinkedIn icon" width="100" height="100"/></a>
-    </div>
-    <div class="col-md-1 hide-mobile" style="margin-left: 15px;">
-      <a href="https://github.com/rtelles64"><img src="images/github.png" alt="Github icon" width="100" height="100"/></a>
-    </div>
-      <!-- <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
-        </div>
-      </div> -->
-    </div>
-  </div>
+        <h3 id="sf-state">San Francisco State University</h3>
+        <ul>
+            <li>BS, Computer Science / Math Minor (2019)</li>
+            <button id="more-info" class="collapsible">More Info...</button>
+            <section class="collapse-content">
+                <h4>Coursework</h4>
+                <ul id="course-list">
+                    <li>Data Structures in Java</li>
+                    <li>Machine Structures</li>
+                    <li>Computing Theory</li>
+                    <li>Analysis of Algorithms</li>
+                    <li>Software Development</li>
+                    <li>Operating Systems Principles</li>
+                    <li>Software Engineering</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Programming Languages</li>
+                </ul>
+            </section>
+        </ul>
+    </section>
+    <!-- PROJECTS section -->
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <h3>Academic</h3>
+        <ul>
+            <li><a href="https://github.com/rtelles64/shallotco" target="_blank">Shallot</a></li>
+            <ul id="shallot-desc">
+                <li>
+                    A mock stock photo website. I worked on a team of 6 students
+                    to develop a full web application using modern teamwork, SE
+                    processes and tools. My role was Frontend Lead.
+                </li>
+                <button id="more-info" class="collapsible">More Info...</button>
+                <section class="collapse-content">
+                    <!-- photo carousel -->
+                    <div class="slideshow-container">
+                        <div class="fade slide">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="images/ShallotHome.jpg" alt="Shallot Home" style="width: 100%;"/>
+                        </div>
+                        <div class="fade slide">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="images/ShallotModal.jpg" alt="Shallot Modal" style="width: 100%;">
+                        </div>
+                        <div class="fade slide">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="images/ShallotSignup.jpg" alt="Shallot Signup" style="width: 100%;" />
+                        </div>
+                        <div class="fade slide">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="images/ShallotLogin.jpg" alt="Shallot Login" style="width: 100%;" />
+                        </div>
+                        <!-- Arrows for slideshow -->
+                        <a id="prev" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a id="next" class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br />
+                    <div style="text-align: center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                    <p>
+                        As Frontend Lead, I oversaw the development of the
+                        frontend of our web app as well as:
+                        <ul id="shallot-list">
+                            <li>
+                                Assisted backend with file tree to ensure smooth
+                                Flask build
+                            </li>
+                            <li>
+                                Developed layout for project UI
+                            </li>
+                            <li>
+                                Mock up design for instructor feedback
+                            </li>
+                            <li>
+                                Developed forms and navigation bar links using
+                                best UI practices
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+            </ul>
+        </ul>
+        <h3>Personal</h3>
+        <ul>
+            <li>Udacity</li>
+            <ul id="udacity-projects">
+                <li><a href="https://github.com/rtelles64/data_pipeline" target="_blank">Data Pipeline</a></li>
+                    <ul id="data-pipe-desc">
+                        <li>
+                            Introduces core concepts of Apache Airflow. Custom
+                            operators are created to perform tasks such as staging
+                            the data, filling the data warehouse, and running
+                            checks on the data as the final step.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/data_lake" target="_blank">Data Lake</a></li>
+                    <ul id="data-lake-desc">
+                        <li>
+                            In this project I apply Spark tools and data laekes
+                            to build an ETL pipeline for a data lake hosted on
+                            S3. Data is loaded from S3, processed into analytics
+                            tables using Spark, and loaded back into S3. Then, a
+                            Spark process is deployed on a cluster using AWS.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/data_warehouse" target="_blank">Data Warehouse</a></li>
+                    <ul id="data-warehouse-desc">
+                        <li>
+                            In this project, I apply data warehouse concepts and
+                            AWS to build an ETL pipeline for a database hosted
+                            on Redshift. Data is loaded from S3 to staging tables
+                            on Redshift and SQL statements are executed that
+                            create the analytics tables from these staging tables.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/data_model_cassandra" target="_blank">Data Model with Apache Cassandra</a></li>
+                    <ul id="cassandra-model-desc">
+                        <li>
+                            Used data modeling concepts and Apache Cassandra to
+                            complete an ETL pipeline using Python. Data is
+                            modeled by creating tables in Apache Cassandra to
+                            run queries. The ETL pipeline transfers data from
+                            a set of CSV files within a directory to create a
+                            streamlined CSV file to model and insert data into
+                            Apache Cassandra tables.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/data_modeling" target="_blank">Data Model with Postgres</a></li>
+                    <ul id="postgres-model-desc">
+                        <li>
+                            Used Postgres to build an ETL pipeline using Python.
+                            Fact and dimension tables were defined for a star
+                            schema for an analytic focus, and an ETL pipeline
+                            was written that transfers data from files in two
+                            local directories into tables in Postgres using
+                            Python and SQL.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/data_capstone" target="_blank">Capstone Project</a></li>
+                    <ul id="capstone-desc">
+                        <li>
+                            This project combines the concepts learned throughout
+                            the Data Engineer Nanodegree Program.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/ItemCatalog" target="_blank">Item Catalog</a></li>
+                    <ul id="item-catalog-desc">
+                        <li>
+                            This project is an application that provides a list
+                            of items within a variety of categories as well as
+                            provides a user registration and authentication
+                            system. Registered users have the ability to create,
+                            edit, and delete their own items.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/crudserver" target="_blank">CRUD Server</a></li>
+                    <ul id="crud-server-desc">
+                        <li>
+                            A simple server that implements CRUD (Create, Read,
+                            Update, Delete) operations to alter information in
+                            a database using SQLAlchemy.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/log-analysis" target="_blank">Log Analysis</a></li>
+                    <ul id="log-analysis-desc">
+                        <li>
+                            This project is an internal reporting tool. Using
+                            information from a PostgreSQL database, it prints
+                            out a report in plain text:
+                        </li>
+                            <ol id="log-analysis-list">
+                                <li>The most popular three articles of all time</li>
+                                <li>The most popular authors of all time</li>
+                                <li>The data in which more than 1% of requests lead to errors</li>
+                            </ol>
+                    </ul>
+            </ul>
+            <li>Udemy</li>
+            <ul id="udemy-projects">
+                <li><a href="https://github.com/rtelles64/ItemStore" target="_blank">Item Store</a></li>
+                    <ul id="item-store-desc">
+                        <li>
+                            This project is a simple REST API that simulates an
+                            item storage, implemented using sqlite3 and
+                            the flask_restful module.
+                        </li>
+                    </ul>
+                <li><a href="https://github.com/rtelles64/BookStore" target="_blank">Book Store</a></li>
+                    <ul id="book-store-desc">
+                        <li>
+                            Using Python, this project demonstrates a simple
+                            book store database that implements a simple GUI
+                            which allows a user to enter book information to
+                            either search, add, update, and delete an entry.
+                            User input and database entries get displayed via
+                            a window within the GUI to let the user known that
+                            an entry was added or what entries are currently in
+                            the database.
+                        </li>
+                    </ul>
+            </ul>
+        </ul>
+    </section>
+    <!-- EXTRAS section -->
+    <section id="extras">
+        <h2>EXTRAS</h2>
+        <p>
+            This section is just a compilation of things I read to stay
+            up-to-date with current technologies, as well as stuff I've come
+            across in learning about new frameworks.
+        </p>
+        <h3>Stuff I Read</h3>
+        <h3>Stuff I Learn</h3>
+    </section>
+    <!-- CONTACT section -->
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <ul id="contact-list">
+            <!-- setting up list items with a div helps with alignment -->
+            <li>
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><span id="contact-item">Location: San Francisco Bay Area, CA</span>
+            </li>
+            <li>
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div><span id="contact-item">Email: rtelles64@gmail.com</span>
+            </li>
+        </ul>
+    </section>
+</div>
+<script>
+// collapsible script
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
-  <div class="show-mobile">
-      <div class="grid-container" style="margin-bottom: 40px;">
-        <div class="grid-item"><a href="https://www.linkedin.com/in/roy-telles/"><img src="images/linkedin.png" alt="LinkedIn icon" width="100" height="100"/></a></div>
-        <div class="grid-item"><a href="https://github.com/rtelles64"><img src="images/github.png" alt="Github icon" width="100" height="100"/></a></div>
-      </div>
-  </div>
-  <br>
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
 
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p>
-  <p>Customized by Me</p>
-</footer>
+// carousel script
+var slideIndex = 1;
+showSlides(slideIndex);
 
-<script src="js/main.js"></script>
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
