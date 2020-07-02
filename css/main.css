@@ -223,10 +223,11 @@ li a:hover:not(.active) {
     padding-right: 0;
     background-color: #555;
     color: #fff !important;
+    text-decoration: underline;
 }
 
 #projects a:hover {
-    text-decoration: underline;
+    color: #000 !important;
 }
 
 /* CAROUSEL inside shallot project */
@@ -372,6 +373,7 @@ img {vertical-align: middle;}
     display: inline-block;
     color: #fff;
     padding-left: 0;
+    text-decoration: underline;
 }
 
 #contact-item a:hover {
