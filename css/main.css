@@ -227,7 +227,7 @@ li a:hover:not(.active) {
 }
 
 #projects a:hover {
-    color: #000 !important;
+    color: #00bfff !important;
 }
 
 /* CAROUSEL inside shallot project */
@@ -377,5 +377,5 @@ img {vertical-align: middle;}
 }
 
 #contact-item a:hover {
-    color: #000 !important;
+    color: #00bfff !important;
 }
