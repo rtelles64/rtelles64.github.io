@@ -267,6 +267,8 @@ img {vertical-align: middle;}
 
 #prev, #next {
     padding-left: 0.9375em !important;
+    text-decoration: none !important;
+    color: #fff !important;
 }
 
 /* Position the "next button" to the right */
@@ -384,4 +386,12 @@ img {vertical-align: middle;}
 
 #contact-item a:hover {
     color: #00bfff !important;
+}
+
+/* MEDIA QUERIES */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
 }
