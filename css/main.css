@@ -55,11 +55,16 @@ li a:hover:not(.active) {
 }
 
 .navbar-brand {
-    display: flex;
+    /* display: flex; */
     justify-content: right;
     align-items: center;
     width: 20%;
     background-color: #f1f1f1;
+}
+
+figure {
+    height: 14em;
+    width: 12.5em;
 }
 
 #profile-pic {
@@ -70,6 +75,7 @@ li a:hover:not(.active) {
 
 #profile-name {
     text-align: center;
+    margin-top: 0.625em;
 }
 
 /* ABOUT ME section */
