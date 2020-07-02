@@ -367,3 +367,13 @@ img {vertical-align: middle;}
 #contact-item {
     margin-left: 0.9375em;
 }
+
+#contact-item a {
+    display: inline-block;
+    color: #fff;
+    padding-left: 0;
+}
+
+#contact-item a:hover {
+    text-decoration: underline;
+}
