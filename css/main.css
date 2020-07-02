@@ -377,5 +377,5 @@ img {vertical-align: middle;}
 }
 
 #contact-item a:hover {
-    text-decoration: underline;
+    color: #000 !important;
 }
