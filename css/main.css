@@ -78,6 +78,18 @@ figure {
     margin-top: 0.625em;
 }
 
+.social-icons img {
+    height: 2.8125em;
+    width: auto;
+    padding-left: 1em;
+    margin-top: 0.3125em;
+}
+
+#linkedin-icon {
+    height: 3.5625em;
+    width: auto;
+}
+
 /* ABOUT ME section */
 #hello-world {
     font-family: Roboto, sans-serif;
@@ -254,7 +266,7 @@ img {vertical-align: middle;}
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: 25px;
+  width: 1.5625em;
   padding: 1rem;
   margin-top: -1.375em;
   color: #fff;
@@ -442,7 +454,7 @@ img {vertical-align: middle;}
     .mobile-nav a {
         color: #000;
         display: none;
-        padding-left: 10px;
+        padding-left: 0.625em;
         text-decoration: none;
         letter-spacing: 0.125em;
         padding-top: 0.5em;
@@ -450,7 +462,7 @@ img {vertical-align: middle;}
     }
 
     #aboutme {
-        margin-top: 18px;
+        margin-top: 1.125em;
     }
 
     .mobile-nav a:hover {
@@ -461,7 +473,7 @@ img {vertical-align: middle;}
     .mobile-nav a.icon {
         float: right;
         display: block;
-        padding-right: 10px;
+        padding-right: 0.625em;
     }
 
     .mobile-nav.responsive {
@@ -486,7 +498,7 @@ img {vertical-align: middle;}
     }
 
     .collapse-content ul {
-        padding-left: 20px;
+        padding-left: 1.25em;
     }
 
     #data-model-list li,
@@ -496,12 +508,12 @@ img {vertical-align: middle;}
     #dev-tools-list li,
     #db-sql-list li,
     #crud-list li {
-        margin-left: 20px;
+        margin-left: 1.25em;
     }
 
     #icon-grid {
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 0.625em;
         /* set column (width) size */
         grid-template-columns: auto auto auto;
         /* set height for each row */
@@ -523,6 +535,6 @@ img {vertical-align: middle;}
     }
 
     #contact-list {
-        font-size: 15px;
+        font-size: 0.9375em;
     }
 }
