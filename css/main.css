@@ -390,8 +390,135 @@ img {vertical-align: middle;}
 
 /* MEDIA QUERIES */
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px)
-and (max-device-width : 480px) {
+.hide-normal {
+    display: none;
+}
 
+#myMobilenav {
+    display: none;
+}
+
+/* iPhone XS (portrait and landscape) ----------- */
+@media only screen /*and (min-device-width: 375px)*/ and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .major-container {
+        padding-left: 10%;
+        padding-top: 20%;
+    }
+
+    #myMobilenav {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    #python,
+    #html-css-javascript,
+    #java,
+    #ruby,
+    #c-plus-plus {
+        display: none;
+    }
+
+
+    .show-mobile {
+        display: block;
+    }
+
+    .mobile-nav {
+        background-color: #f1f1f1;
+        position: fixed;
+        width: 100%;
+    }
+
+    .mobile-nav span {
+        margin-left: 10px;
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+    .mobile-nav a {
+        color: #000;
+        display: none;
+        padding-left: 10px;
+        text-decoration: none;
+        letter-spacing: 0.125em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    #aboutme {
+        margin-top: 18px;
+    }
+
+    .mobile-nav a:hover {
+        background-color: #555;
+        color: #fff;
+    }
+
+    .mobile-nav a.icon {
+        float: right;
+        display: block;
+        padding-right: 10px;
+    }
+
+    .mobile-nav.responsive {
+        position: fixed;
+    }
+
+    .mobile-nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mobile-nav.responsive a.icon.active {
+        background-color: #555;
+        color: #fff;
+    }
+
+    .mobile-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .collapse-content ul {
+        padding-left: 20px;
+    }
+
+    #data-model-list li,
+    #cloud-list li,
+    #lakes-list li,
+    #pipeline-list li,
+    #dev-tools-list li,
+    #db-sql-list li,
+    #crud-list li {
+        margin-left: 20px;
+    }
+
+    #icon-grid {
+        display: grid;
+        grid-gap: 10px;
+        /* set column (width) size */
+        grid-template-columns: auto auto auto;
+        /* set height for each row */
+        grid-template-rows: auto auto auto;
+    }
+
+    .grid-item {
+        font-size: 2.75em;
+        text-align: center;
+    }
+
+    #cpp-mobile {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #course-list {
+        columns: 1;
+    }
 }

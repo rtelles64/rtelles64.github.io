@@ -20,7 +20,19 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar">
+<!-- mobile nav -->
+<nav id="myMobilenav" class="mobile-nav hide-normal show-mobile">
+    <span>ROY TELLES JR.</span>
+    <a id="aboutme" href="#myPage">ABOUT ME</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#education">EDUCATION</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#extras">EXTRAS</a>
+    <a href="#contact">CONTACT</a>
+    <a href="javascript:void(0);" class="icon active" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+</nav>
+
+<nav class="navbar hide-mobile">
     <div class="navbar-brand" href="#myPage">
         <figure>
             <img id="profile-pic" src="images/RoyTelles.jpg" alt="Roy Telles Jr."/>
@@ -54,7 +66,16 @@
     <!-- SKILLS section -->
     <section id="skills">
         <h2>SKILLS</h2>
-        <section id="python">
+        <section id="icon-grid" class="show-mobile hide-normal">
+            <i class="fab fa-python fa-3x grid-item"></i>
+            <i class="fab fa-html5 fa-3x grid-item"></i>
+            <i class="fab fa-css3-alt fa-3x grid-item"></i>
+            <i class="fab fa-js-square fa-3x grid-item"></i>
+            <i class="fab fa-java fa-3x grid-item"></i>
+            <i class="fas fa-gem fa-3x grid-item"></i>
+            <i id="cpp-mobile" class="devicon-cplusplus-line grid-item"></i>
+        </section>
+        <section id="python" class="hide-mobile">
             <i class="fab fa-python fa-3x"></i>
             <p>
                 I love coding in Python. I spend most of my free time looking for
@@ -69,7 +90,7 @@
             few courses and read a few articles on these subjects.
             </p>
         </section>
-        <section id="html-css-javascript">
+        <section id="html-css-javascript" class="hide-mobile">
             <i class="fab fa-html5 fa-3x"></i>
             <i class="fab fa-css3-alt fa-3x"></i>
             <i class="fab fa-js-square fa-3x"></i>
@@ -85,7 +106,7 @@
                 experience for everyone visiting my sites.
             </p>
         </section>
-        <section id="java">
+        <section id="java" class="hide-mobile">
             <i class="fab fa-java fa-3x"></i>
             <p>
                 Most of my undergrad curriculum involved projects coded in Java.
@@ -97,7 +118,7 @@
                 internet can be a programmer's best friend.
             </p>
         </section>
-        <section id="ruby">
+        <section id="ruby" class="hide-mobile">
             <i class="fas fa-gem fa-3x"></i>
             <p>
                 Outside of academics, in the process of learning more programming
@@ -110,7 +131,7 @@
                 when a reference to Ruby on Rails was made.
             </p>
         </section>
-        <section id="c-plus-plus">
+        <section id="c-plus-plus" class="hide-mobile">
             <i class="devicon-cplusplus-line"></i>
             <p>
                 My first break into the Computer Science major was taking a course
@@ -247,7 +268,7 @@
         <h3>Academic</h3>
         <ul>
             <li><a href="https://github.com/rtelles64/shallotco" target="_blank">Shallot</a></li>
-            <ul id="shallot-desc">
+            <ul id="shallot-desc" class="hide-mobile">
                 <li>
                     A mock stock photo website. I worked on a team of 6 students
                     to develop a full web application using modern teamwork, SE
@@ -312,7 +333,7 @@
             <li>Udacity</li>
             <ul id="udacity-projects">
                 <li><a href="https://github.com/rtelles64/data_pipeline" target="_blank">Data Pipeline</a></li>
-                    <ul id="data-pipe-desc">
+                    <ul id="data-pipe-desc" class="hide-mobile">
                         <li>
                             Introduces core concepts of Apache Airflow. Custom
                             operators are created to perform tasks such as staging
@@ -321,7 +342,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/data_lake" target="_blank">Data Lake</a></li>
-                    <ul id="data-lake-desc">
+                    <ul id="data-lake-desc" class="hide-mobile">
                         <li>
                             In this project I apply Spark tools and data laekes
                             to build an ETL pipeline for a data lake hosted on
@@ -331,7 +352,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/data_warehouse" target="_blank">Data Warehouse</a></li>
-                    <ul id="data-warehouse-desc">
+                    <ul id="data-warehouse-desc" class="hide-mobile">
                         <li>
                             In this project, I apply data warehouse concepts and
                             AWS to build an ETL pipeline for a database hosted
@@ -341,7 +362,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/data_model_cassandra" target="_blank">Data Model with Apache Cassandra</a></li>
-                    <ul id="cassandra-model-desc">
+                    <ul id="cassandra-model-desc" class="hide-mobile">
                         <li>
                             Used data modeling concepts and Apache Cassandra to
                             complete an ETL pipeline using Python. Data is
@@ -353,7 +374,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/data_modeling" target="_blank">Data Model with Postgres</a></li>
-                    <ul id="postgres-model-desc">
+                    <ul id="postgres-model-desc" class="hide-mobile">
                         <li>
                             Used Postgres to build an ETL pipeline using Python.
                             Fact and dimension tables were defined for a star
@@ -364,14 +385,14 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/data_capstone" target="_blank">Capstone Project</a></li>
-                    <ul id="capstone-desc">
+                    <ul id="capstone-desc" class="hide-mobile">
                         <li>
                             This project combines the concepts learned throughout
                             the Data Engineer Nanodegree Program.
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/ItemCatalog" target="_blank">Item Catalog</a></li>
-                    <ul id="item-catalog-desc">
+                    <ul id="item-catalog-desc" class="hide-mobile">
                         <li>
                             This project is an application that provides a list
                             of items within a variety of categories as well as
@@ -381,7 +402,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/crudserver" target="_blank">CRUD Server</a></li>
-                    <ul id="crud-server-desc">
+                    <ul id="crud-server-desc" class="hide-mobile">
                         <li>
                             A simple server that implements CRUD (Create, Read,
                             Update, Delete) operations to alter information in
@@ -389,7 +410,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/log-analysis" target="_blank">Log Analysis</a></li>
-                    <ul id="log-analysis-desc">
+                    <ul id="log-analysis-desc" class="hide-mobile">
                         <li>
                             This project is an internal reporting tool. Using
                             information from a PostgreSQL database, it prints
@@ -405,7 +426,7 @@
             <li>Udemy</li>
             <ul id="udemy-projects">
                 <li><a href="https://github.com/rtelles64/ItemStore" target="_blank">Item Store</a></li>
-                    <ul id="item-store-desc">
+                    <ul id="item-store-desc" class="hide-mobile">
                         <li>
                             This project is a simple REST API that simulates an
                             item storage, implemented using sqlite3 and
@@ -413,7 +434,7 @@
                         </li>
                     </ul>
                 <li><a href="https://github.com/rtelles64/BookStore" target="_blank">Book Store</a></li>
-                    <ul id="book-store-desc">
+                    <ul id="book-store-desc" class="hide-mobile">
                         <li>
                             Using Python, this project demonstrates a simple
                             book store database that implements a simple GUI
@@ -455,5 +476,6 @@
 </div>
 <script src="js/slide.js"></script>
 <script src="js/collapse.js"></script>
+<script src="js/mobile_nav.js"></script>
 </body>
 </html>
