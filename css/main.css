@@ -521,4 +521,8 @@ img {vertical-align: middle;}
     #course-list {
         columns: 1;
     }
+
+    #contact-list {
+        font-size: 15px;
+    }
 }
