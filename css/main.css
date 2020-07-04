@@ -372,6 +372,21 @@ img {vertical-align: middle;}
     list-style: decimal;
 }
 
+/* EXTRAS styling */
+#reading-list li a {
+    padding-left: 0;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#reading-list li a:hover {
+    color: #00bfff;
+}
+
+#collapse-reading-list li {
+    list-style-type: disc;
+}
+
 /* CONTACT styling */
 
 #contact-list {
@@ -415,7 +430,7 @@ img {vertical-align: middle;}
   and (-webkit-min-device-pixel-ratio: 2) {
     .major-container {
         padding-left: 10%;
-        padding-top: 20%;
+        padding-top: 10%;
     }
 
     #myMobilenav {
@@ -462,7 +477,7 @@ img {vertical-align: middle;}
     }
 
     #aboutme {
-        margin-top: 1.125em;
+        margin-top: 0.5em;
     }
 
     .mobile-nav a:hover {
