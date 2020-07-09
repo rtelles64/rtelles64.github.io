@@ -547,6 +547,7 @@ img {vertical-align: middle;}
 
     #course-list {
         columns: 1;
+        font-size: .89em;
     }
 
     #contact-list {
