@@ -239,6 +239,7 @@ figure {
 #projects a {
     padding-left: 0;
     padding-right: 0;
+    width: max-content;
     background-color: #555;
     color: #fff !important;
     text-decoration: underline;
@@ -375,6 +376,7 @@ img {vertical-align: middle;}
 /* EXTRAS styling */
 #reading-list li a {
     padding-left: 0;
+    width: max-content;
     color: #fff;
     text-decoration: underline;
 }
