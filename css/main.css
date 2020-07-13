@@ -226,7 +226,7 @@ figure {
 #course-list {
     columns: 2;
     line-height: 1.5625em;
-    width: 33em;
+    width: 28.125em;
 }
 
 /* PROJECTS styling */
@@ -385,6 +385,15 @@ img {vertical-align: middle;}
 
 #collapse-reading-list li {
     list-style-type: disc;
+}
+
+#hobbies-list li {
+  margin-bottom: 0.9em;
+  list-style: none;
+}
+
+.hobby-icon {
+  display: inline-block;
 }
 
 /* CONTACT styling */
@@ -547,7 +556,6 @@ img {vertical-align: middle;}
 
     #course-list {
         columns: 1;
-        font-size: .85em;
     }
 
     #contact-list {
